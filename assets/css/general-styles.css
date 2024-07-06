@@ -62,6 +62,10 @@
 /* ---------------------------- */
 /*         other classes        */
 
+hr {
+    background-color: #2da8c9;
+}
+
 .header {
     font-size: 40px;
     margin: 0;
