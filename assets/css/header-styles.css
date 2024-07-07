@@ -51,6 +51,7 @@
     border-radius: 5px;
     background-color: #34B5D9;
     outline: none;
+    color: white;
 }
 
 .search-box input::placeholder {
