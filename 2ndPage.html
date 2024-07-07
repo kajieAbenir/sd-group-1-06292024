@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    
+    <!-- link to content styling. -->
+    <link rel="stylesheet" href="assets/css/index-styles.css">
+
+    <!-- always include/'link' these. for header & footer styling -->
+    <link rel="stylesheet" href="assets/css/header-styles.css">
+    <link rel="stylesheet" href="assets/css/footer-styles.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="logo">
+            <img src="assets/img/vivamus_logo.png" alt="VIVAMUS Logo">
+        </a>
+        <div class="nav-links">
+            <a href="#">Bibendum</a>
+            <a href="#">Sollicitudin</a>
+            <a href="#">Metus</a>
+            <a href="#">Egestas</a>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button type="button">&#128269;</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Vivamus interdum nunc ac sem fringilla</h1>
+        <p>Duis risus urna, mattis eget justo non, gravida ultrices diam</p>
+        
+        <div class="progress-bar">
+            <div class="step active">
+                <div class="circle">1</div>
+            </div>
+            <div class="step active">
+                <div class="circle">2</div>
+            </div>
+            <div class="step">
+                <div class="circle">3</div>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <fieldset class="fieldset">
+                <legend class="legend">Your donation</legend>
+                <div class="input-group">
+                    <label for="donation-amount">Donation Amount*</label>
+                    <input type="text" id="donation-amount" name="donation-amount">
+                </div>
+                <div class="input-group">
+                    <label for="card-holder-name">Card Holder Name*</label>
+                    <input type="text" id="card-holder-name" name="card-holder-name">
+                </div>
+                <div class="input-group">
+                    <label for="card-number">Credit Card No.*</label>
+                    <input type="text" id="card-number" name="card-number">
+                </div>
+                <div class="input-group">
+                    <label for="card-security-code">Card Security Code*</label>
+                    <input type="text" id="card-security-code" name="card-security-code">
+                </div>
+                <div class="input-group">
+                    <label for="expiry-date">Expiry Date*</label>
+                    <input type="text" id="expiry-date" name="expiry-date">
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="button-group">
+            <button type="button">Back</button>
+            <button type="button">Proceed</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-nav">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact</a>
+        </div>
+        <p>&copy; 2024 Vivamus. All rights reserved.</p>
+    </footer>
+</body>
+</html>
