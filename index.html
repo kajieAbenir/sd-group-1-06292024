@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Example</title>
-    <link rel="stylesheet" href="assets/css/mainStyle.css">
+
+    <title>VIVAMUS - HOME</title>
+
+    <!-- link to content styling. -->
+    <link rel="stylesheet" href="assets/css/index-styles.css">
+
+    <!-- always include/'link' these. for header & footer styling -->
+    <link rel="stylesheet" href="assets/css/header-styles.css">
+    <link rel="stylesheet" href="assets/css/footer-styles.css">
 </head>
 <body>
+    <!-- header. template. copy to another (scrapping the header/footer idea) -->
     <div class="header">
-        <div class="logo">VIVAMUS</div>
+        <a href="index.html" class="logo">
+            <img src="assets/img/vivamus_logo.png" alt="VIVAMUS Logo">
+        </a>
         <div class="nav-links">
             <a href="#">Bibendum</a>
+            <a> | </a>
             <a href="#">Sollicitudin</a>
+            <a> | </a>
             <a href="#">Metus</a>
+            <a> | </a>
             <a href="#">Egestas</a>
         </div>
         <div class="search-box">
             <input type="text" placeholder="Search">
-            <button type="submit">🔍</button>
+            <button type="submit">
+                <img src="assets/img/search_icon.png" alt="Search">
+            </button>
         </div>
     </div>
+
     <div class="container">
         <h1>In euismod sapien eu maximus tempus</h1>
         <p>Vestibulum bibendum posuere dui, in pharetra est hendrerit ac. Integer posuere metus lacus</p>
@@ -36,23 +52,23 @@
             </div>
         </div>
 
-        <form class="form-container">
+        <form class="form-container" method="post">
             <fieldset>
                 <legend>About you</legend>
                 <div class="input-group">
-                    <label for="first-name">First name*</label>
+                    <label for="first-name">First name <a style="color: red;">*</a></label>
                     <input type="text" id="first-name" name="first-name" required>
                 </div>
                 <div class="input-group">
-                    <label for="last-name">Last name*</label>
+                    <label for="last-name">Last name <a style="color: red;">*</a></label>
                     <input type="text" id="last-name" name="last-name" required>
                 </div>
                 <div class="input-group">
-                    <label for="email">Email Address*</label>
+                    <label for="email">Email Address <a style="color: red;">*</a></label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="input-group">
-                    <label for="mobile">Mobile number*</label>
+                    <label for="mobile">Mobile number <a style="color: red;">*</a></label>
                     <input type="tel" id="mobile" name="mobile" required>
                 </div>
                 <button type="submit">Next</button>
