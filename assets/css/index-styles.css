@@ -7,6 +7,34 @@ body {
     min-height: 100vh;
 }
 
+/* Add or update these styles in your existing index-style.css */
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 100px; /* Increase height */
+    resize: vertical; /* Allow users to resize vertically */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: inline-block; /* Change to inline-block for proper spacing */
+    margin-bottom: 5px;
+    color: #7d7d7d;
+}
+
+.input-group input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle; /* Align with the label */
+}
+
 .no-select{
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
