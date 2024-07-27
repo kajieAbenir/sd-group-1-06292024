@@ -98,7 +98,5 @@ if (!$conn->query($SQL_comment)) {
     ErrorLogCreator($conn->error, $errorlogfile);
     die("Error creating table vivamus_comment: ". $conn->error);
 } else {
-    // returns nothing. only use for dev purpose.
-    // echo "Tables created successfully<br><br>";
 }
 ?>

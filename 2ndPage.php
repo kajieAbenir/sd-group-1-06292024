@@ -41,16 +41,6 @@ if ($__db->connect_error) {
     die("Connection failed: " . $__db->connect_error);
 }
 
-// remove after debug.
-
-echo 'POST contents:<br>';
-
-var_dump($_POST);
-
-echo 'REQUEST contents:<br>';
-
-var_dump($_REQUEST);
-
 // the usual POST method.
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -119,9 +109,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
             $last_id = $row['last_id'];
-
-            // remove after debug.
-            echo "<br>Last ID for email $email: $last_id";
         } else {
             echo "No rows found for email $email";
         }
