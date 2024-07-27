@@ -1,8 +1,13 @@
-# SOFTWARE DESIGN - GROUP 1
+# SOFTWARE DESIGN PROJECT
+**GROUP 1**
 *Design title:* VIVAMUS
 *Submitted for:* Mr. Neil Agbay
+*Institution:* **[CITE TECHNICAL INSTITUTE, INC.](cite.edu.ph)**
 
 ## Members
-- *Rollymar Cañedo >> Leader*
+- *Brent Kyrjeh Abenir >> Leader*
 - Jerniel Serat
-- Brent Kyrjeh Abenir
+- Rollymar Cañedo
+
+## Repository
+Repository can be found [here](https://github.com/kajieAbenir/sd-group-1-06292024).
